@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+<etapa>
+    <nombre>Alcossebre a Castelló</nombre>
+    <numero>6</numero>
+    <longitud unidad="km">177.5</longitud>
+    <fecha>2026-08-27</fecha>
+    <tiempo_ganador>04:30:00</tiempo_ganador>
+    <velocidad_media unidad="km/h">39.4</velocidad_media>
+    <desnivel unidad="metros">3094</desnivel>
+    <ciudad_inicio>Alcossebre</ciudad_inicio>
+    <ciudad_fin>Castelló</ciudad_fin>
+    <tipo>media montaña</tipo>
+
+    <!-- Referencias -->
+    <referencias>
+        <referencia>Libro de Ruta Oficial La Vuelta 26</referencia>
+        <referencia>Dos</referencia>
+        <referencia>Tres</referencia>
+    </referencias>
+
+    <!-- Multimedia -->
+    <fotografias>
+        <fotografia>etapa6.jpg</fotografia>
+    </fotografias>
+    <videos>
+        <video>etapa6.mp4</video>
+    </videos>
+    <sonidos>
+        <sonido>etapa6.mp3</sonido>
+    </sonidos>
+
+    <!-- Lugares de Salida y Meta-->
+    <salida>
+        <coordenadas>
+            <longitud_geo unidad="grados">0.2810</longitud_geo>
+            <latitud_geo unidad="grados">40.2511</latitud_geo>
+            <altitud unidad="metros">62</altitud>
+        </coordenadas>
+    </salida>
+    <meta>
+        <coordenadas>
+            <longitud_geo unidad="grados">-0.0295</longitud_geo>
+            <latitud_geo unidad="grados">39.9748</latitud_geo>
+            <altitud unidad="metros">23</altitud>
+        </coordenadas>
+    </meta>
+
+    <!-- Hitos de la Etapa -->
+    <hitos>
+        <puerto_montana tipo="segunda">
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0280</longitud_geo>
+                <latitud_geo unidad="grados">40.3130</latitud_geo>
+                <altitud unidad="metros">839</altitud>
+            </coordenadas>
+            <distancia unidad="km">44.6</distancia>
+        </puerto_montana>
+        <puerto_montana tipo="tercera">
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0410</longitud_geo>
+                <latitud_geo unidad="grados">40.2860</latitud_geo>
+                <altitud unidad="metros">790</altitud>
+            </coordenadas>
+            <distancia unidad="km">66.1</distancia>
+        </puerto_montana>
+        <sprint tipo="intermedio">
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0640</longitud_geo>
+                <latitud_geo unidad="grados">40.0540</latitud_geo>
+                <altitud unidad="metros">22</altitud>
+            </coordenadas>
+            <distancia unidad="km">120.1</distancia>
+        </sprint>
+        <puerto_montana tipo="segunda">
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0290</longitud_geo>
+                <latitud_geo unidad="grados">40.0760</latitud_geo>
+                <altitud unidad="metros">422</altitud>
+            </coordenadas>
+            <distancia unidad="km">128.5</distancia>
+        </puerto_montana>
+        <puerto_montana tipo="primera">
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0320</longitud_geo>
+                <latitud_geo unidad="grados">40.0850</latitud_geo>
+                <altitud unidad="metros">713</altitud>
+            </coordenadas>
+            <distancia unidad="km">158.8</distancia>
+        </puerto_montana>
+    </hitos>
+
+    <!-- Puntos Anónimos -->
+    <puntos_anonimos>
+        <punto_anonimo>
+            <nombre_punto>Cruce N-340</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.2700</longitud_geo>
+                <latitud_geo unidad="grados">40.2600</latitud_geo>
+                <altitud unidad="metros">62</altitud>
+            </coordenadas>
+            <distancia unidad="km">1.9</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Alcalà de Xivert</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.2220</longitud_geo>
+                <latitud_geo unidad="grados">40.3020</latitud_geo>
+                <altitud unidad="metros">151</altitud>
+            </coordenadas>
+            <distancia unidad="km">6.3</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Les Coves de Vinromà</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.1230</longitud_geo>
+                <latitud_geo unidad="grados">40.2660</latitud_geo>
+                <altitud unidad="metros">182</altitud>
+            </coordenadas>
+            <distancia unidad="km">21.4</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Cruce izda. La Torre</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0800</longitud_geo>
+                <latitud_geo unidad="grados">40.2600</latitud_geo>
+                <altitud unidad="metros">250</altitud>
+            </coordenadas>
+            <distancia unidad="km">29.2</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>La Torre d'en Doménec</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0690</longitud_geo>
+                <latitud_geo unidad="grados">40.2620</latitud_geo>
+                <altitud unidad="metros">303</altitud>
+            </coordenadas>
+            <distancia unidad="km">30.3</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>La Serratella</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0300</longitud_geo>
+                <latitud_geo unidad="grados">40.3000</latitud_geo>
+                <altitud unidad="metros">800</altitud>
+            </coordenadas>
+            <distancia unidad="km">42.6</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Albocàsser</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0230</longitud_geo>
+                <latitud_geo unidad="grados">40.3570</latitud_geo>
+                <altitud unidad="metros">527</altitud>
+            </coordenadas>
+            <distancia unidad="km">52.0</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Mas de Sant Pau</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0200</longitud_geo>
+                <latitud_geo unidad="grados">40.3200</latitud_geo>
+                <altitud unidad="metros">480</altitud>
+            </coordenadas>
+            <distancia unidad="km">55.1</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Cruce izda. La Serra</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0150</longitud_geo>
+                <latitud_geo unidad="grados">40.2800</latitud_geo>
+                <altitud unidad="metros">600</altitud>
+            </coordenadas>
+            <distancia unidad="km">61.5</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Mas de Cervera</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0150</longitud_geo>
+                <latitud_geo unidad="grados">40.2700</latitud_geo>
+                <altitud unidad="metros">650</altitud>
+            </coordenadas>
+            <distancia unidad="km">62.0</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>La Serra d'en Galceran</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0100</longitud_geo>
+                <latitud_geo unidad="grados">40.2500</latitud_geo>
+                <altitud unidad="metros">700</altitud>
+            </coordenadas>
+            <distancia unidad="km">68.7</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Benlloc</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0260</longitud_geo>
+                <latitud_geo unidad="grados">40.2090</latitud_geo>
+                <altitud unidad="metros">310</altitud>
+            </coordenadas>
+            <distancia unidad="km">79.0</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Vall d'Alba</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0300</longitud_geo>
+                <latitud_geo unidad="grados">40.1800</latitud_geo>
+                <altitud unidad="metros">250</altitud>
+            </coordenadas>
+            <distancia unidad="km">85.5</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Rotonda izda. Cabanes</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0350</longitud_geo>
+                <latitud_geo unidad="grados">40.1700</latitud_geo>
+                <altitud unidad="metros">260</altitud>
+            </coordenadas>
+            <distancia unidad="km">87.0</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Rotonda dcha. Cabanes</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0380</longitud_geo>
+                <latitud_geo unidad="grados">40.1600</latitud_geo>
+                <altitud unidad="metros">260</altitud>
+            </coordenadas>
+            <distancia unidad="km">88.4</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Cabanes</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0410</longitud_geo>
+                <latitud_geo unidad="grados">40.1570</latitud_geo>
+                <altitud unidad="metros">263</altitud>
+            </coordenadas>
+            <distancia unidad="km">93.3</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Cruce dcha. Oropesa</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0600</longitud_geo>
+                <latitud_geo unidad="grados">40.1200</latitud_geo>
+                <altitud unidad="metros">100</altitud>
+            </coordenadas>
+            <distancia unidad="km">106.4</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Oropesa (ext.)</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0800</longitud_geo>
+                <latitud_geo unidad="grados">40.1000</latitud_geo>
+                <altitud unidad="metros">50</altitud>
+            </coordenadas>
+            <distancia unidad="km">111.3</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Benicàssim</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0640</longitud_geo>
+                <latitud_geo unidad="grados">40.0540</latitud_geo>
+                <altitud unidad="metros">16</altitud>
+            </coordenadas>
+            <distancia unidad="km">117.0</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Rotonda N-340a</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0600</longitud_geo>
+                <latitud_geo unidad="grados">40.0500</latitud_geo>
+                <altitud unidad="metros">20</altitud>
+            </coordenadas>
+            <distancia unidad="km">137.2</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Rotonda CV-149</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0500</longitud_geo>
+                <latitud_geo unidad="grados">40.0530</latitud_geo>
+                <altitud unidad="metros">20</altitud>
+            </coordenadas>
+            <distancia unidad="km">139.4</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Benicàssim (2º paso)</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0640</longitud_geo>
+                <latitud_geo unidad="grados">40.0540</latitud_geo>
+                <altitud unidad="metros">14</altitud>
+            </coordenadas>
+            <distancia unidad="km">141.8</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Giro dcha. El Bartolo</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0400</longitud_geo>
+                <latitud_geo unidad="grados">40.0700</latitud_geo>
+                <altitud unidad="metros">400</altitud>
+            </coordenadas>
+            <distancia unidad="km">152.7</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Tramo de tierra</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0300</longitud_geo>
+                <latitud_geo unidad="grados">40.0800</latitud_geo>
+                <altitud unidad="metros">682</altitud>
+            </coordenadas>
+            <distancia unidad="km">153.8</distancia>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Cruce dcha. Castelló</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidad="grados">0.0100</longitud_geo>
+                <latitud_geo unidad="grados">40.0300</latitud_geo>
+                <altitud unidad="metros">300</altitud>
+            </coordenadas>
+            <distancia unidad="km">159.6</distancia>
+        </punto_anonimo>
+    </puntos_anonimos>
+
+    <!-- Clasificacion de la Etapa -->
+    <clasificacion_etapa>
+        <clasificado>
+            <posicion>1</posicion>
+            <corredor>Tadej Pogacar</corredor>
+        </clasificado>
+        <clasificado>
+            <posicion>2</posicion>
+            <corredor>Primoz Roglic</corredor>
+            <diferencia_tiempo>+ 00' 25''</diferencia_tiempo>
+        </clasificado>
+        <clasificado>
+            <posicion>3</posicion>
+            <corredor>Jonas Vingegaard</corredor>
+            <diferencia_tiempo>+ 00' 42''</diferencia_tiempo>
+        </clasificado>
+    </clasificacion_etapa>
+
+    <!-- Clasificacion General -->
+    <clasificacion_general>
+        <clasificado>
+            <posicion>1</posicion>
+            <corredor>Tadej Pogacar</corredor>
+        </clasificado>
+        <clasificado>
+            <posicion>2</posicion>
+            <corredor>Primoz Roglic</corredor>
+            <diferencia_tiempo>+ 01' 15''</diferencia_tiempo>
+        </clasificado>
+        <clasificado>
+            <posicion>3</posicion>
+            <corredor>Enric Mas</corredor>
+            <diferencia_tiempo>+ 02' 10''</diferencia_tiempo>
+        </clasificado>
+    </clasificacion_general>
+
+    <!-- Clasificacion por Equipos -->
+    <clasificacion_equipos>
+        <equipo>
+            <posicion>1</posicion>
+            <nombre_equipo>UAE Team Emirates</nombre_equipo>
+        </equipo>
+        <equipo>
+            <posicion>2</posicion>
+            <nombre_equipo>Red Bull - BORA - hansgrohe</nombre_equipo>
+            <diferencia_tiempo>+ 10' 20''</diferencia_tiempo>
+        </equipo>
+        <equipo>
+            <posicion>3</posicion>
+            <nombre_equipo>Movistar Team</nombre_equipo>
+            <diferencia_tiempo>+ 15' 45''</diferencia_tiempo>
+        </equipo>
+    </clasificacion_equipos>
+</etapa>
