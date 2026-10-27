@@ -1,0 +1,105 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Adrián Fernández Gayo */
+/*  Correo electrónico (uniovi): uo307424@uniovi.es */
+/*  Grupo de laboratorio: L.2            */
+/* ***************************************/
+
+/* Gama cromática
+Color negro (#000000)
+Color blanco (#FFFFFF)
+
+Color principal (#800000)
+    - Contraste de 9.64:1 con color secundario
+    - Contraste de 10.95:1 con color blanco
+
+Color secundario (#E6F2FF)
+    - Contraste de 9.64:1 con color principal
+    - Contraste de 18.50:1 con color negro
+*/
+
+/* Especificidad: 010 */
+:root {
+    --color-principal: #800000;
+    --color-secundario: #E6F2FF;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+/* Especificidad: 001 */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Especificidad: 001, 001 */
+header, footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 002, 002 */
+header a, footer a {
+    color: var(--color-blanco); /* ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
+    text-decoration: none;
+}
+
+/* Especificidad: 001, 001, 001, 001, 001 */
+h2, h3, h4, h5, h6 {
+    color: var(--color-principal); /* ADVERTENCIA: color de fondo heredado del body --color-blanco */
+
+}
+
+/* Especificidad: 010 */
+[aria-current="page"] {
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+
+/* Especificidad: 003 */
+header + nav > ol {
+    font-size: 0.9em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Especificidad: 004 */
+header + nav > ol > li {
+    display: inline;
+}
+
+/* Especificidad: 014 */
+header + nav > ol > li:last-child {
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture) > ul > li:first-child {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture) > ul > li:nth-child(3) {
+    font-size: 1.3em;
+}
+
+/* Especificidad: 014 */
+section:has(picture) > ul > li:nth-child(4) {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+    /* Especificidad: 003, 003 */
+    section:has(video) > video,
+    section:has(video) > audio {
+        max-width: 100%;
+    }
+}
